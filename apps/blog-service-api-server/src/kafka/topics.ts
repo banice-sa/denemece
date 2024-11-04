@@ -1,1 +1,1 @@
-export enum KafkaTopics {}
+export enum MyMessageBrokerTopics {}

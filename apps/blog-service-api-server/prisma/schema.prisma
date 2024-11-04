@@ -6,13 +6,3 @@ datasource db {
 generator client {
   provider = "prisma-client-js"
 }
-
-model Article {
-  author      String?
-  content     String?
-  createdAt   DateTime  @default(now())
-  id          String    @id @default(cuid())
-  publishedOn DateTime?
-  title       String?
-  updatedAt   DateTime  @updatedAt
-}
